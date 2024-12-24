@@ -1,0 +1,487 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#nav_container{
+    height:70px;
+    width:100vw;
+    /* border:solid blue; */
+    display:flex;
+    justify-content: space-between;
+    
+}
+#right_container{
+    display: flex;
+    justify-content: space-evenly;
+    gap:15px;
+    padding-top: 20px;
+    margin:0px 0px 0px 4px;
+    font-size: 16px;
+    color:#4A4A4A;
+
+
+}
+#left_container img{
+    height:64px;
+}
+#container2{
+    
+    height:40px;
+    width:90vw;
+    border:solid;
+    display:flex;
+    gap:2px;
+
+
+
+}
+#container2 > div{
+    /* border:solid red; */
+    width:87.63px;
+    height:30px;
+    text-align:center;
+    font-size: 12px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#container2>div:nth-child(1)
+{
+    background-color: #CD5C5C;
+    color:white;
+    
+}
+#container2>div:nth-child(2)
+{
+    background-color: #2F4F4F;
+    color:white;
+    
+}
+#container2>div:nth-child(3)
+{
+    background-color: #1B2631;
+    color:white;
+    
+}
+#container2>div:nth-child(4)
+{
+    background-color: #4D5656;
+    color:white;
+    
+}
+#container2>div:nth-child(5)
+{
+    background-color: #145A32;
+    color:white;
+    
+}
+#container2>div:nth-child(6)
+{
+    background-color: #154360;
+    color:white;
+    
+}
+#container2>div:nth-child(7)
+{
+    background-color: #1B2631;
+    color:white;
+    
+}
+#container2>div:nth-child(8)
+{
+    background-color: #1B4F72;
+    color:white;
+    
+}
+#container2>div:nth-child(9)
+{
+    background-color: #708090;
+    color:white;
+    
+}
+#container2>div:nth-child(10)
+{
+    background-color: #556B24;
+    color:white;
+    
+}
+#container2>div:nth-child(11)
+{
+    background-color: #5FEA90;
+    color:white;
+    
+}
+#container2>div:nth-child(12)
+{
+    background-color: #78281F;
+    color:white;
+    
+}
+#container2>div:nth-child(13)
+{
+    background-color: #708090;
+    color:white;
+    
+}
+#container2>div:nth-child(14)
+{
+    background-color: #2F4F4F;
+    color:white;
+    
+}
+#container2>div:nth-child(15)
+{
+    background-color: #1B2631;
+    color:white;
+    
+}
+#container2>div:nth-child(16)
+{
+    background-color: #4D5656;
+    color:white;
+    
+}
+#Container3{
+    width:100vw;
+    height:330px;
+    /* border:solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px;
+
+}
+#Container3>div{
+    width:480px;
+    height:315px;
+    /* border:solid blue; */
+    padding:20px;
+
+
+}
+#Container3 #div1
+{
+    background-color: #174D72;
+    color:#F5F5D8;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:15px;
+}
+#Container3 #div1 #para1{
+    display:flex;
+    justify-content: center;
+    color:#FF9800;
+    font-size: 16px;
+    margin:0px 0px 16px;
+    /* padding:10px; */
+}
+#Container3 #div1 #para1 i{
+    padding:6px;
+}
+#div2{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    /* align-items: center; */
+    gap:7px;
+}
+#div2 .para3{
+    width:440px;
+    height:56px;
+    background-color: #F5F5F5;
+    border-left: 4px solid #1261A0;
+    border-right:4px solid #1261A0;
+    border-radius: 4px;
+    margin:0px 0px 16px;
+    
+
+
+}
+#div2 #para2{
+    display:flex;
+    justify-content: center;
+    color:#FF9800;
+    font-size: 16px;
+    margin:0px 0px 16px;
+}
+#div2 .para3 article{
+    color:#1261A0;
+    font-size: 16px;
+}
+
+#div2 .para3 i{
+    color:#FF9800;
+     
+}
+
+span{
+    
+        color:#FF9800;
+         
+}
+
+#div2 #para2 i{
+    padding:7px;
+}
+#div3{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    justify-content:center;
+    padding:20px;
+}
+#div3 .para4{
+    display:flex;
+    justify-content: center;
+    color:#FF9800;
+    font-size:16px;
+    gap:0px;
+}
+
+#div3 .para4 i{
+    padding:7px;
+}
+#div3 .para5{
+    width:440px;
+    height:24px;
+    text-align: center;
+    font-size:16px;
+    color:white;
+    background-color: #4A4A4A;
+    margin:0px 0px 4px;
+}
+#div3 .para6{
+   
+    display: flex;
+    justify-content: center;
+    gap:1px;
+}
+#div3 .para6 button{
+    width:54px;
+    height:30px;
+    text-align:center;
+    border:none;
+    padding: 5px 12px;
+}
+#div3 .para6 button{
+    background-color: #1261A0;
+    color:white;
+}
+#div3 .para7{
+    display:flex;
+    justify-content: center;
+    gap:1px;
+}
+#div3 .para7 button{
+    width:84px;
+    height:30.7px;
+    background-color: #FF9800;
+    color:white;
+    text-align:center;
+    font-size: 16px;
+    border:none;
+}
+.para8 {
+    display:flex;
+    justify-content: center;
+}
+.para8 button {
+    color:white;
+    border:none;
+    font-size: 16px;
+    text-align: center;
+}
+#Container4{
+    height:200px;
+    width:100vw;
+    display:flex;
+    justify-content: space-between;
+    gap:5px;
+    /* border:solid 1px;*/
+}
+#Container4 .card  p{
+    width:243.89px;
+    height:48px;
+    color:#FF9800;
+    text-align: center;
+    padding:12px 16px;
+    background-color: #4A4A4A;
+
+
+}
+#Container4 .card .box{
+    width:243.89px;
+    height:80px;
+    color:#4A4A4A;
+    background-color: white;
+    padding: 4px 24px;
+
+}
+#Container4 .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#Container5 {
+    width:100vw;
+    height:180px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#Container5 #card1 p{
+    width:1344px;
+    height:48px;
+    background-color: #1261A0;
+    color:white;
+    padding:12px 16px;
+    text-align: center;
+
+}
+#Container5  #card1 .box1{
+    width:1344px;
+    height:110px;
+    background-color: white;
+    color:black;
+    text-align: center;
+
+}
+#Container5 #card1 .box1 div{
+    display: flex;
+    justify-content: center;
+    gap:4px;
+    margin-top:5px;
+}
+#Container5 #card1 .box1 div button{
+    width:143px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color:white;
+    font-size: 16px;
+}
+
+#Container5 #card1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#Container6{
+    width:1400px;
+    /* height:250px; */
+    /* border:solid 1px; */
+    display:flex;
+    row-gap:5px;
+    justify-content: space-between;
+    /* gap:10px; */
+    flex-wrap: wrap;
+    margin:20px;
+    align-content:flex-start; 
+    /* align-content: ; */
+}
+#Container6 .card2>p{
+    width:432px;
+    height:48px;
+    background-color: #F5F5F5;
+    display:flex;
+    justify-content: space-between;
+    padding:12px 16px;
+}
+#Container6 .card2 .box2{
+    width:432px;
+    height:160px;
+    padding:8px;
+    background-color: white;
+    color:black;
+    text-align: center;
+
+
+}
+#Container6 .card2>p span{
+    color:#FF9800;
+    font-size: 16px;
+    /* padding:12px 16px; */
+}
+#Container6 .card2 img{
+    height:24px;
+    width:24px;
+
+}
+#Container6:nth-child(4)
+{
+    margin-left: 20px;
+}
+#Container6  .card2 .div .btn1,.btn3{
+    width:144px;
+    height:30px;
+    background-color: #1261A0;
+    color:#F5F5F5;
+    font-size: 12px;
+    padding:12px;
+    border:none;
+}
+#Container6  .card2 .div .btn2{
+    width:144px;
+    height:30px;
+    background-color: #FF9800;
+    color:#F5F5F5;
+    font-size: 12px;
+    padding:12px;
+    border:none;
+}
+#Container6 .card2{
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#Container7{
+    display:flex;
+    justify-content: space-between;
+    gap:40px;
+    margin:10px;
+}
+#Container7 img{
+    width:100px;
+    height:50px;
+}
+#Container8{
+    display:flex;
+    justify-content: space-between;
+    font-size:16px;
+    border:1px  grey;
+
+}
+#Container8 a{
+    text-decoration: none;
+    width:141px;
+    height:40px;
+    padding:8px 12px;
+   
+}
+#Container8 div{
+    display:flex;
+    /* justify-content: space-evenly; */
+    gap:5px;
+    padding:8px 12px;
+    font-size:16px;
+    color:#FF9800;
+}
+#Container8 div span {
+    color:#FF9800;
+}
+/* #main{
+    padding-top: 50px;
+    height: 50px;
+    /* border: solid red; */
+    /* display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* text-align: center; */
+/* 
+#spiders{
+    /* border: solid teal; */
+    
+    /* align-items: center;
+    color: #F29000;
+    font-weight: 600;
+    padding-right: 30px; */
+
